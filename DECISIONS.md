@@ -1,6 +1,14 @@
 # Product decisions
 
-Earlier decisions on lecture access and note sharing are recorded in [PRODUCT.md](PRODUCT.md).
+## Lecture access and note sharing
+
+| Decision | Alternatives discussed | Reason or outcome |
+| --- | --- | --- |
+| Allow lecture-level public access | Use the same visibility for the entire course | Universities can open an individual lecture and its materials within a restricted course. |
+| Require sign-in for AI questions | Allow signed-out viewers to ask questions | Public viewing and AI interaction have different access requirements. |
+| Share with selected group members | Share with the whole group | The author controls who receives each in-app share. |
+| Require each recipient to accept a revision | Automatically display the latest Ready revision or use Fetch latest | Recipients can review a shared draft and decide when to adopt an update. |
+| Carry unresolved threads forward | Keep threads visible only on the original revision | Reviewers can continue the discussion after the passage changes or is deleted. |
 
 ## First release
 
