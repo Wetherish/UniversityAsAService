@@ -3,3 +3,5 @@
 /*.m4v
 /lectures/
 /presentation/
+/.env
+/node_modules/
